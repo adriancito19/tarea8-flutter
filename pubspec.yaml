@@ -1,0 +1,36 @@
+name: multas_20230608
+description: Aplicación para consulta de información de vehículos mediante código de marbete.
+publish_to: 'none'
+
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  flutter_riverpod: ^2.4.10
+  shared_preferences: ^2.2.2
+  uuid: ^4.1.0
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  audioplayers: ^6.4.0
+  record: ^5.2.1
+  provider: ^6.0.5
+  permission_handler: ^11.0.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png"
