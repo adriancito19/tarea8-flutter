@@ -9,7 +9,7 @@ import '../services/storage_service.dart';
 class AgenteFormScreen extends StatefulWidget {
   final Agente? agente;
 
-  const AgenteFormScreen({Key? key, this.agente}) : super(key: key);
+  const AgenteFormScreen({super.key, this.agente});
 
   @override
   State<AgenteFormScreen> createState() => _AgenteFormScreenState();

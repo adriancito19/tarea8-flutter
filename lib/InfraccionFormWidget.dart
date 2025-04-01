@@ -42,7 +42,7 @@ class _InfraccionFormWidgetState extends State<InfraccionFormWidget> {
   DateTime _fechaHora = DateTime.now();
   final TextEditingController _descripcionController = TextEditingController();
   bool _isSaving = false;
-  List<File> _selectedImages = []; // Lista para almacenar las imágenes seleccionadas
+  final List<File> _selectedImages = []; // Lista para almacenar las imágenes seleccionadas
   
   // Para seleccionar fecha y hora
   Future<void> _selectDateTime(BuildContext context) async {
